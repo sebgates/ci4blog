@@ -19,7 +19,9 @@ class Posts extends Controller
  
     public function create()
     {    
-        return view('create-post');
+        echo view('templates/header');
+        echo view('create-post');
+        echo view('templates/footer');
     }
  
     public function store()

@@ -9,6 +9,10 @@
     margin-bottom: 20px;
 }
 
+/* Text styles */
+.center {
+    text-align: center;
+}
 /* Footer styles */
 .footer {
     text-align: center;
