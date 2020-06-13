@@ -12,8 +12,9 @@ class Posts extends Controller
         $model = new PostModel();
  
         $data['posts'] = $model->orderBy('id', 'DESC')->findAll();
-        
-        return view('posts', $data);
+        echo view('templates/header', $data);
+        echo view('posts', $data);
+        echo view('templates/footer', $data);
     }    
  
     public function create()

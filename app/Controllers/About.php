@@ -4,7 +4,9 @@ class About extends BaseController
 {
 	public function index()
 	{
-		return view('about');
+		echo view('templates/header');
+		echo view('pages/about');
+		echo view('templates/footer');
 	}
 
 

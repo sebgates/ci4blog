@@ -1,0 +1,16 @@
+/* Header styles */
+
+.navbar {
+    margin-bottom: 20px;
+}
+/* Body styles */
+
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    background: #343a40;
+    color: white;
+    padding: 20px 0px;
+    font-size: 12px;
+}

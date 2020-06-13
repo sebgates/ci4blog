@@ -1,15 +1,3 @@
-<!doctype html>
-<html lang="en">
-  <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Codeigniter 4 CRUD Tutorial -  posts List Example - Expertphp.in</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
-
-</head>
-<body>
- 
 <div class="container mt-5">
     <a href="<?php echo base_url('posts/create') ?>" class="btn btn-sm btn-success">Create</a>
   <div class="row mt-3">
@@ -40,15 +28,3 @@
      </table>
   </div>
 </div>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
- 
-<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" type="text/javascript"></script>
- 
-<script>
-    $(document).ready( function () {
-      $('#posts').DataTable();
-  } );
-</script>
-
-</body>
-</html>
