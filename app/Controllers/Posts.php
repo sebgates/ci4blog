@@ -48,8 +48,9 @@ class Posts extends Controller
      $model = new PostModel();
      
      $data['post'] = $model->find($id);
-      
-     return view('edit-post', $data);
+     echo view('templates/header');
+     echo view('edit-post', $data);
+     echo view('templates/footer');
     }
  
     public function update()
