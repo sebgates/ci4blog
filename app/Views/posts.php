@@ -12,7 +12,6 @@
  
 <div class="container mt-5">
     <a href="<?php echo base_url('posts/create') ?>" class="btn btn-sm btn-success">Create</a>
-   
   <div class="row mt-3">
      <table class="table table-bordered" id="posts">
        <thead>
@@ -41,7 +40,6 @@
      </table>
   </div>
 </div>
- 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
  
 <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" type="text/javascript"></script>
@@ -51,5 +49,6 @@
       $('#posts').DataTable();
   } );
 </script>
+
 </body>
 </html>
