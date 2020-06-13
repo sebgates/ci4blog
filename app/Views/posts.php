@@ -1,6 +1,5 @@
-<div class="container mt-5">
-    <a href="<?php echo base_url('posts/create') ?>" class="btn btn-sm btn-success">Create</a>
-  <div class="row mt-3">
+<div class="container ex-margin-bottom">
+<center><h1>All Blog Posts</h1></center>
      <table class="table table-bordered" id="posts">
        <thead>
           <tr>
@@ -26,5 +25,4 @@
          <?php endif; ?>
        </tbody>
      </table>
-  </div>
 </div>

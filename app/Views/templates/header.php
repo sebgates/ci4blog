@@ -19,7 +19,7 @@
     <div class="navbar-nav ml-auto">
       <a class="nav-item nav-link" href="/about">About</a>
       <a class="nav-item nav-link" href="/posts">Manage News</a>
-      <a class="nav-item nav-link" href="/news/create">Add News</a>
+      <a class="nav-item nav-link" href="posts/create">Add News</a>
     </div>
   </div>
   </div>

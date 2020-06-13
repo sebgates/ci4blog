@@ -5,6 +5,9 @@
 }
 /* Body styles */
 
+.ex-margin-bottom {
+    margin-bottom: 20px;
+}
 
 /* Footer styles */
 .footer {
