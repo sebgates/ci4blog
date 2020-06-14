@@ -3,21 +3,22 @@
      <table class="table table-bordered" id="posts">
        <thead>
           <tr>
-             <th>Id</th>
-             <th>Title</th>
-             <th>Description</th>
-             <th>Action</th>
+             <th>Blog Posts</th>
+             <th>Edit</th>
+             <th>Delete</th>
           </tr>
        </thead>
        <tbody>
           <?php if($posts): ?>
           <?php foreach($posts as $post): ?>
           <tr>
-             <td><?php echo $post['id']; ?></td>
-             <td><?php echo $post['title']; ?></td>
-             <td><?php echo $post['description']; ?></td>
+             <td>
+             <h3><?php echo $post['title']; ?></h3>  
+             <?php echo $post['description']; ?></td>
              <td>
               <a href="<?php echo base_url('posts/edit/'.$post['id']);?>" class="btn btn-sm btn-success">Edit</a>
+          </td>
+          <td>
               <a href="<?php echo base_url('posts/delete/'.$post['id']);?>" class="btn btn-sm btn-danger">Delete</a>
               </td>
           </tr>

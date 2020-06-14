@@ -1,2 +1,2 @@
 
-<h1>This is the homepage content</h1>
+<h1 class="center">Home Page</h1>

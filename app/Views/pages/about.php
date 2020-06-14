@@ -1,1 +1,1 @@
-<h1>About View</h1>
+<h1 class="center">About Page</h1>
